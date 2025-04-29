@@ -10,6 +10,14 @@
       "StackName": "amplify-bioginteccerdazasimu-dev-8eaf1",
       "StackId": "arn:aws:cloudformation:us-east-1:009908684781:stack/amplify-bioginteccerdazasimu-dev-8eaf1/1c712a60-23fa-11f0-888d-12707b2b873b",
       "AmplifyAppId": "d176os9ng8c3i1"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d176os9ng8c3i1",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
