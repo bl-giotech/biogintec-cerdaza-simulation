@@ -201,7 +201,7 @@ function SimulationForm() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-3xl font-bold text-center mb-8",
-                children: "Simulación del Proceso de Tratamiento de Cerdaza"
+                children: "Simulación del proceso de tratamiento de Cerdaza"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
                 lineNumber: 94,
@@ -214,8 +214,8 @@ function SimulationForm() {
                         className: "bg-white p-6 rounded-lg shadow-md",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-xl font-semibold mb-4",
-                                children: "Parámetros de Entrada"
+                                className: "text-black text-xl font-semibold mb-4",
+                                children: "Parámetros de entrada"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 99,
@@ -229,7 +229,7 @@ function SimulationForm() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "block text-sm font-medium text-gray-700",
-                                                children: "Cantidad de Cerdaza (litros)"
+                                                children: "Cantidad de cerdaza (litros)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 103,
@@ -241,7 +241,7 @@ function SimulationForm() {
                                                     required: true,
                                                     min: 1
                                                 }),
-                                                className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                                                className: "text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 106,
@@ -265,7 +265,7 @@ function SimulationForm() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "block text-sm font-medium text-gray-700",
-                                                children: "Cantidad de Sustancia Biotecnológica"
+                                                children: "Cantidad de sustancia biotecnológica"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 115,
@@ -278,7 +278,7 @@ function SimulationForm() {
                                                     required: true,
                                                     min: 0.1
                                                 }),
-                                                className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                                                className: "text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 118,
@@ -302,7 +302,7 @@ function SimulationForm() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "block text-sm font-medium text-gray-700",
-                                                children: "Valor de Sustancia Biotecnológica (USD por unidad)"
+                                                children: "Valor de sustancia biotecnológica (USD por unidad)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 128,
@@ -315,7 +315,7 @@ function SimulationForm() {
                                                     required: true,
                                                     min: 0.01
                                                 }),
-                                                className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                                                className: "text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 131,
@@ -339,7 +339,7 @@ function SimulationForm() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "block text-sm font-medium text-gray-700",
-                                                children: "Valor de Mercado del Fertilizante Foliar (USD por unidad)"
+                                                children: "Valor de mercado del fertilizante foliar (USD por unidad)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 141,
@@ -352,7 +352,7 @@ function SimulationForm() {
                                                     required: true,
                                                     min: 0.01
                                                 }),
-                                                className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                                                className: "text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 144,
@@ -376,7 +376,7 @@ function SimulationForm() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "block text-sm font-medium text-gray-700",
-                                                children: "Valor de Mercado del Fertilizante Radicular (USD por unidad)"
+                                                children: "Valor de mercado del fertilizante radicular (USD por unidad)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 154,
@@ -389,7 +389,7 @@ function SimulationForm() {
                                                     required: true,
                                                     min: 0.01
                                                 }),
-                                                className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                                                className: "text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 157,
@@ -413,7 +413,7 @@ function SimulationForm() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 className: "block text-sm font-medium text-gray-700",
-                                                children: "Número de Sistemas Completos"
+                                                children: "Número de sistemas completos"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 167,
@@ -425,7 +425,7 @@ function SimulationForm() {
                                                     required: true,
                                                     min: 1
                                                 }),
-                                                className: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                                                className: "text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 170,
@@ -448,7 +448,7 @@ function SimulationForm() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "submit",
                                         className: "w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
-                                        children: "Calcular Resultados"
+                                        children: "Calcular resultados"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 178,
@@ -470,8 +470,8 @@ function SimulationForm() {
                         className: "bg-white p-6 rounded-lg shadow-md",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-xl font-semibold mb-4",
-                                children: "Resultados de la Simulación"
+                                className: "text-black text-xl font-semibold mb-4",
+                                children: "Resultados de la simulación"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 189,
@@ -495,7 +495,7 @@ function SimulationForm() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-2xl font-bold",
+                                                        className: "text-gray-600 text-2xl font-bold",
                                                         children: [
                                                             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatQuantity"])(results.foliarFertilizerAmount),
                                                             " L"
@@ -506,7 +506,7 @@ function SimulationForm() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-sm text-gray-500",
+                                                        className: "text-sm text-gray-900",
                                                         children: [
                                                             "Valor: ",
                                                             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatCurrency"])(results.foliarFertilizerTotalValue)
@@ -534,7 +534,7 @@ function SimulationForm() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-2xl font-bold",
+                                                        className: "text-gray-600 text-2xl font-bold",
                                                         children: [
                                                             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatQuantity"])(results.radicularFertilizerAmount),
                                                             " L"
@@ -545,7 +545,7 @@ function SimulationForm() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-sm text-gray-500",
+                                                        className: "text-sm text-gray-900",
                                                         children: [
                                                             "Valor: ",
                                                             (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatCurrency"])(results.radicularFertilizerTotalValue)
@@ -582,7 +582,7 @@ function SimulationForm() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-2xl font-bold",
+                                                        className: "text-gray-600 text-2xl font-bold",
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatTime"])(results.totalCycleTime)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.tsx",
@@ -715,10 +715,10 @@ function SimulationForm() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-12 bg-white p-6 rounded-lg shadow-md",
+                className: "mt-12 bg-gray-900 p-6 rounded-lg shadow-md",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-xl font-semibold mb-4",
+                        className: "text-white text-xl font-semibold mb-4",
                         children: "Diagrama del Proceso"
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
@@ -734,7 +734,7 @@ function SimulationForm() {
                                     className: "bg-blue-100 p-4 rounded-lg w-64 text-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold",
+                                            className: "text-gray-700 font-bold",
                                             children: "FASE 1: CARGA"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -742,6 +742,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-700",
                                             children: "Cerdaza + Sustancia Biotecnológica"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -755,7 +756,7 @@ function SimulationForm() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "h-8 w-0.5 bg-gray-400"
+                                    className: "h-8 w-0.5 bg-amber-300"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
                                     lineNumber: 253,
@@ -765,7 +766,7 @@ function SimulationForm() {
                                     className: "bg-red-100 p-4 rounded-lg w-64 text-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold",
+                                            className: "text-gray-700 font-bold",
                                             children: "FASE 2: TRATAMIENTO TÉRMICO"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -773,6 +774,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-700",
                                             children: "Ciclo 1: 15 min (Activación)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -780,6 +782,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-700",
                                             children: "Ciclo 2: 15 min (Estabilización)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -787,6 +790,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-700",
                                             children: "Ciclo 3: 45 min (Reacciones)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -794,6 +798,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-700",
                                             children: "Ajuste de pH"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -807,7 +812,7 @@ function SimulationForm() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "h-8 w-0.5 bg-gray-400"
+                                    className: "h-8 w-0.5 bg-amber-300"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
                                     lineNumber: 264,
@@ -817,7 +822,7 @@ function SimulationForm() {
                                     className: "bg-green-100 p-4 rounded-lg w-64 text-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold",
+                                            className: "text-gray-700 font-bold",
                                             children: "FASE 3: SEPARACIÓN"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -825,6 +830,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-700",
                                             children: "Filtración y Separación Sólidos-Líquidos"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -841,14 +847,14 @@ function SimulationForm() {
                                     className: "flex items-center justify-center w-full",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex-1 h-0.5 bg-gray-400"
+                                            className: "flex-1 h-0.5 bg-amber-300"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
                                             lineNumber: 273,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mx-4 text-gray-500",
+                                            className: "mx-4 text-white",
                                             children: "Separación"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -856,7 +862,7 @@ function SimulationForm() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex-1 h-0.5 bg-gray-400"
+                                            className: "flex-1 h-0.5 bg-amber-300"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
                                             lineNumber: 275,
@@ -875,7 +881,7 @@ function SimulationForm() {
                                             className: "bg-yellow-100 p-4 rounded-lg w-64 text-center",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "font-bold",
+                                                    className: "text-gray-700 font-bold",
                                                     children: "FASE 4: PROCESAMIENTO DE SÓLIDOS"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -883,6 +889,7 @@ function SimulationForm() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-gray-700",
                                                     children: "Túnel Ventilado (Secado)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -890,6 +897,7 @@ function SimulationForm() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-gray-700",
                                                     children: "Tanque 6,000L"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -906,7 +914,7 @@ function SimulationForm() {
                                             className: "bg-purple-100 p-4 rounded-lg w-64 text-center",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "font-bold",
+                                                    className: "text-gray-700 font-bold",
                                                     children: "FASE 5: PROCESAMIENTO DE LÍQUIDOS"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -914,6 +922,7 @@ function SimulationForm() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-gray-700",
                                                     children: "Tanque Móvil 2,000L"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -921,6 +930,7 @@ function SimulationForm() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-gray-700",
                                                     children: "Tanque Cónico 4,000L"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -943,14 +953,14 @@ function SimulationForm() {
                                     className: "flex justify-between w-full",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-8 w-0.5 bg-gray-400 mx-auto"
+                                            className: "h-8 w-0.5 bg-amber-300 mx-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
                                             lineNumber: 295,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-8 w-0.5 bg-gray-400 mx-auto"
+                                            className: "h-8 w-0.5 bg-amber-300 mx-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
                                             lineNumber: 296,
@@ -966,7 +976,7 @@ function SimulationForm() {
                                     className: "bg-green-200 p-4 rounded-lg w-full max-w-lg text-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold",
+                                            className: "text-gray-700 font-bold",
                                             children: "FASE 6: PRODUCTO FINAL"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -979,7 +989,7 @@ function SimulationForm() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-semibold",
+                                                            className: "text-gray-700 font-semibold",
                                                             children: "Fertilizantes Foliares"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/page.tsx",
@@ -987,6 +997,7 @@ function SimulationForm() {
                                                             columnNumber: 19
                                                         }, this),
                                                         results && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-700",
                                                             children: [
                                                                 (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatQuantity"])(results.foliarFertilizerAmount),
                                                                 " L"
@@ -1005,7 +1016,7 @@ function SimulationForm() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-semibold",
+                                                            className: "text-gray-700 font-semibold",
                                                             children: "Fertilizantes Radiculares"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/page.tsx",
@@ -1013,6 +1024,7 @@ function SimulationForm() {
                                                             columnNumber: 19
                                                         }, this),
                                                         results && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-700",
                                                             children: [
                                                                 (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$simulationModel$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatQuantity"])(results.radicularFertilizerAmount),
                                                                 " L"

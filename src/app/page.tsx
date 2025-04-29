@@ -91,86 +91,86 @@ export default function SimulationForm() {
   
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-center mb-8">Simulación del Proceso de Tratamiento de Cerdaza</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">Simulación del proceso de tratamiento de Cerdaza</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Formulario de entrada */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold mb-4">Parámetros de Entrada</h2>
+          <h2 className="text-black text-xl font-semibold mb-4">Parámetros de entrada</h2>
           
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Cantidad de Cerdaza (litros)
+                Cantidad de cerdaza (litros)
               </label>
               <input
                 type="number"
                 {...register('cerdazaAmount', { required: true, min: 1 })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.cerdazaAmount && <span className="text-red-500 text-sm">Este campo es requerido y debe ser mayor a 0</span>}
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Cantidad de Sustancia Biotecnológica
+                Cantidad de sustancia biotecnológica
               </label>
               <input
                 type="number"
                 step="0.1"
                 {...register('biotechSubstanceAmount', { required: true, min: 0.1 })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.biotechSubstanceAmount && <span className="text-red-500 text-sm">Este campo es requerido y debe ser mayor a 0</span>}
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Valor de Sustancia Biotecnológica (USD por unidad)
+                Valor de sustancia biotecnológica (USD por unidad)
               </label>
               <input
                 type="number"
                 step="0.01"
                 {...register('biotechSubstanceValue', { required: true, min: 0.01 })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.biotechSubstanceValue && <span className="text-red-500 text-sm">Este campo es requerido y debe ser mayor a 0</span>}
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Valor de Mercado del Fertilizante Foliar (USD por unidad)
+                Valor de mercado del fertilizante foliar (USD por unidad)
               </label>
               <input
                 type="number"
                 step="0.01"
                 {...register('foliarFertilizerValue', { required: true, min: 0.01 })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.foliarFertilizerValue && <span className="text-red-500 text-sm">Este campo es requerido y debe ser mayor a 0</span>}
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Valor de Mercado del Fertilizante Radicular (USD por unidad)
+                Valor de mercado del fertilizante radicular (USD por unidad)
               </label>
               <input
                 type="number"
                 step="0.01"
                 {...register('radicularFertilizerValue', { required: true, min: 0.01 })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.radicularFertilizerValue && <span className="text-red-500 text-sm">Este campo es requerido y debe ser mayor a 0</span>}
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Número de Sistemas Completos
+                Número de sistemas completos
               </label>
               <input
                 type="number"
                 {...register('systemsCount', { required: true, min: 1 })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               />
               {errors.systemsCount && <span className="text-red-500 text-sm">Este campo es requerido y debe ser mayor a 0</span>}
             </div>
@@ -179,35 +179,35 @@ export default function SimulationForm() {
               type="submit"
               className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
-              Calcular Resultados
+              Calcular resultados
             </button>
           </form>
         </div>
         
         {/* Resultados de la simulación */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold mb-4">Resultados de la Simulación</h2>
+          <h2 className="text-black text-xl font-semibold mb-4">Resultados de la simulación</h2>
           
           {results ? (
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-4 rounded-md">
                   <h3 className="font-medium text-gray-700">Fertilizante Foliar</h3>
-                  <p className="text-2xl font-bold">{formatQuantity(results.foliarFertilizerAmount)} L</p>
-                  <p className="text-sm text-gray-500">Valor: {formatCurrency(results.foliarFertilizerTotalValue)}</p>
+                  <p className="text-gray-600 text-2xl font-bold">{formatQuantity(results.foliarFertilizerAmount)} L</p>
+                  <p className="text-sm text-gray-900">Valor: {formatCurrency(results.foliarFertilizerTotalValue)}</p>
                 </div>
                 
                 <div className="bg-gray-50 p-4 rounded-md">
                   <h3 className="font-medium text-gray-700">Fertilizante Radicular</h3>
-                  <p className="text-2xl font-bold">{formatQuantity(results.radicularFertilizerAmount)} L</p>
-                  <p className="text-sm text-gray-500">Valor: {formatCurrency(results.radicularFertilizerTotalValue)}</p>
+                  <p className="text-gray-600 text-2xl font-bold">{formatQuantity(results.radicularFertilizerAmount)} L</p>
+                  <p className="text-sm text-gray-900">Valor: {formatCurrency(results.radicularFertilizerTotalValue)}</p>
                 </div>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-4 rounded-md">
                   <h3 className="font-medium text-gray-700">Tiempo del Ciclo</h3>
-                  <p className="text-2xl font-bold">{formatTime(results.totalCycleTime)}</p>
+                  <p className="text-gray-600 text-2xl font-bold">{formatTime(results.totalCycleTime)}</p>
                 </div>
                 
                 <div className="bg-gray-50 p-4 rounded-md">
@@ -239,74 +239,74 @@ export default function SimulationForm() {
       </div>
       
       {/* Diagrama del proceso */}
-      <div className="mt-12 bg-white p-6 rounded-lg shadow-md">
-        <h2 className="text-xl font-semibold mb-4">Diagrama del Proceso</h2>
+      <div className="mt-12 bg-gray-900 p-6 rounded-lg shadow-md">
+        <h2 className="text-white text-xl font-semibold mb-4">Diagrama del Proceso</h2>
         
         <div className="overflow-x-auto">
           <div className="flex flex-col items-center space-y-4 min-w-[800px]">
             {/* Fase 1: Carga */}
             <div className="bg-blue-100 p-4 rounded-lg w-64 text-center">
-              <h3 className="font-bold">FASE 1: CARGA</h3>
-              <p>Cerdaza + Sustancia Biotecnológica</p>
+              <h3 className="text-gray-700 font-bold">FASE 1: CARGA</h3>
+              <p className='text-gray-700'>Cerdaza + Sustancia Biotecnológica</p>
             </div>
             
-            <div className="h-8 w-0.5 bg-gray-400"></div>
+            <div className="h-8 w-0.5 bg-amber-300"></div>
             
             {/* Fase 2: Tratamiento Térmico */}
             <div className="bg-red-100 p-4 rounded-lg w-64 text-center">
-              <h3 className="font-bold">FASE 2: TRATAMIENTO TÉRMICO</h3>
-              <p>Ciclo 1: 15 min (Activación)</p>
-              <p>Ciclo 2: 15 min (Estabilización)</p>
-              <p>Ciclo 3: 45 min (Reacciones)</p>
-              <p>Ajuste de pH</p>
+              <h3 className="text-gray-700 font-bold">FASE 2: TRATAMIENTO TÉRMICO</h3>
+              <p className='text-gray-700'>Ciclo 1: 15 min (Activación)</p>
+              <p className='text-gray-700'>Ciclo 2: 15 min (Estabilización)</p>
+              <p className='text-gray-700'>Ciclo 3: 45 min (Reacciones)</p>
+              <p className='text-gray-700'>Ajuste de pH</p>
             </div>
             
-            <div className="h-8 w-0.5 bg-gray-400"></div>
+            <div className="h-8 w-0.5 bg-amber-300"></div>
             
             {/* Fase 3: Separación */}
             <div className="bg-green-100 p-4 rounded-lg w-64 text-center">
-              <h3 className="font-bold">FASE 3: SEPARACIÓN</h3>
-              <p>Filtración y Separación Sólidos-Líquidos</p>
+              <h3 className="text-gray-700 font-bold">FASE 3: SEPARACIÓN</h3>
+              <p className='text-gray-700'>Filtración y Separación Sólidos-Líquidos</p>
             </div>
             
             <div className="flex items-center justify-center w-full">
-              <div className="flex-1 h-0.5 bg-gray-400"></div>
-              <div className="mx-4 text-gray-500">Separación</div>
-              <div className="flex-1 h-0.5 bg-gray-400"></div>
+              <div className="flex-1 h-0.5 bg-amber-300"></div>
+              <div className="mx-4 text-white">Separación</div>
+              <div className="flex-1 h-0.5 bg-amber-300"></div>
             </div>
             
             <div className="flex justify-between w-full">
               {/* Fase 4: Procesamiento de Sólidos */}
               <div className="bg-yellow-100 p-4 rounded-lg w-64 text-center">
-                <h3 className="font-bold">FASE 4: PROCESAMIENTO DE SÓLIDOS</h3>
-                <p>Túnel Ventilado (Secado)</p>
-                <p>Tanque 6,000L</p>
+                <h3 className="text-gray-700 font-bold">FASE 4: PROCESAMIENTO DE SÓLIDOS</h3>
+                <p className='text-gray-700'>Túnel Ventilado (Secado)</p>
+                <p className='text-gray-700'>Tanque 6,000L</p>
               </div>
               
               {/* Fase 5: Procesamiento de Líquidos */}
               <div className="bg-purple-100 p-4 rounded-lg w-64 text-center">
-                <h3 className="font-bold">FASE 5: PROCESAMIENTO DE LÍQUIDOS</h3>
-                <p>Tanque Móvil 2,000L</p>
-                <p>Tanque Cónico 4,000L</p>
+                <h3 className="text-gray-700 font-bold">FASE 5: PROCESAMIENTO DE LÍQUIDOS</h3>
+                <p className='text-gray-700'>Tanque Móvil 2,000L</p>
+                <p className='text-gray-700'>Tanque Cónico 4,000L</p>
               </div>
             </div>
             
             <div className="flex justify-between w-full">
-              <div className="h-8 w-0.5 bg-gray-400 mx-auto"></div>
-              <div className="h-8 w-0.5 bg-gray-400 mx-auto"></div>
+              <div className="h-8 w-0.5 bg-amber-300 mx-auto"></div>
+              <div className="h-8 w-0.5 bg-amber-300 mx-auto"></div>
             </div>
             
             {/* Fase 6: Producto Final */}
             <div className="bg-green-200 p-4 rounded-lg w-full max-w-lg text-center">
-              <h3 className="font-bold">FASE 6: PRODUCTO FINAL</h3>
+              <h3 className="text-gray-700 font-bold">FASE 6: PRODUCTO FINAL</h3>
               <div className="flex justify-around mt-2">
                 <div>
-                  <p className="font-semibold">Fertilizantes Foliares</p>
-                  {results && <p>{formatQuantity(results.foliarFertilizerAmount)} L</p>}
+                  <p className="text-gray-700 font-semibold">Fertilizantes Foliares</p>
+                  {results && <p className='text-gray-700'>{formatQuantity(results.foliarFertilizerAmount)} L</p>}
                 </div>
                 <div>
-                  <p className="font-semibold">Fertilizantes Radiculares</p>
-                  {results && <p>{formatQuantity(results.radicularFertilizerAmount)} L</p>}
+                  <p className="text-gray-700 font-semibold">Fertilizantes Radiculares</p>
+                  {results && <p className='text-gray-700'>{formatQuantity(results.radicularFertilizerAmount)} L</p>}
                 </div>
               </div>
             </div>
