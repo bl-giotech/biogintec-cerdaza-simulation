@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bioginteccerdazasimu-dev-8eaf1-authRole",
+      "UnauthRoleArn": "arn:aws:iam::009908684781:role/amplify-bioginteccerdazasimu-dev-8eaf1-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::009908684781:role/amplify-bioginteccerdazasimu-dev-8eaf1-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bioginteccerdazasimu-dev-8eaf1-deployment",
+      "UnauthRoleName": "amplify-bioginteccerdazasimu-dev-8eaf1-unauthRole",
+      "StackName": "amplify-bioginteccerdazasimu-dev-8eaf1",
+      "StackId": "arn:aws:cloudformation:us-east-1:009908684781:stack/amplify-bioginteccerdazasimu-dev-8eaf1/1c712a60-23fa-11f0-888d-12707b2b873b",
+      "AmplifyAppId": "d176os9ng8c3i1"
+    }
+  }
+}
